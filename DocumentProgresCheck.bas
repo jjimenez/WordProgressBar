@@ -6,7 +6,7 @@ Dim runWhen As Double
 
 Sub ProgressCheck()
     
-    progressCheckTarget = CInt(InputBox("Enter target wordcount", "Target", "10000"))
+    progressCheckTarget = CDbl(InputBox("Enter target wordcount", "Target", "10000"))
     NumberOfWords
     
 End Sub
